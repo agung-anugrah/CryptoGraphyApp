@@ -11,7 +11,7 @@ class App(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("Cryptography App")
+        self.title("Cryptograph App")
         self.geometry("300x300+800+200")
 
         self.columnconfigure(0, weight=1)
